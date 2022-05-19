@@ -23,7 +23,7 @@ for (let i = 0; i < 20; i++ ){
         person.firstName = randChoice(maleNames);
     }
     person.lastName = randChoice(lastNames);
-    person.age = Math.floor(Math.random() * 78);
+    person.age = Math.floor(Math.random() * 61) + 18;
 
     people.push(person);
 }
